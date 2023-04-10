@@ -17,8 +17,8 @@
     "scss": "^0.2.4"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx}": "npx eslint",
-    "*.{js,jsx,ts,tsx,html,css,Scss}": "npx prettier --check"
+    "*.{js,jsx,ts,tsx}": "npm run lint:fix",
+    "*.{js,jsx,ts,tsx,html,css,Scss}": "npm run format --check"
   },
   "scripts": {
     "start": "react-scripts start",
