@@ -1,0 +1,70 @@
+$textColor: #4a4a4a;
+$blueColor: #2196f3;
+
+.ticket {
+  width: 502px;
+  min-height: 184px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.15));
+  overflow: hidden;
+  font-weight: 600;
+  margin-bottom: 20px;
+  &__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+  }
+  &__price {
+    font-size: 24px;
+    line-height: 24px;
+    color: #2196f3;
+    margin: 26px 20px;
+  }
+  &__logo {
+    width: 110px;
+    height: 36px;
+    margin: 20px;
+  }
+  &__info {
+    display: flex;
+    flex-direction: row;
+  }
+  &__way {
+    width: 141px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 5px 20px;
+  }
+  &__title {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #a0b0b9;
+  }
+  &__subTitle {
+    font-size: 14px;
+    line-height: 21px;
+    color: $textColor;
+    margin-bottom: 10px;
+  }
+  &__wayTime {
+    width: 141px;
+    margin: 0 0 5px 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  &__transfers {
+    width: 141px;
+    margin: 0 20px 5px 20px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 420px) {
+}

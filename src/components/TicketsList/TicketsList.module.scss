@@ -1,0 +1,22 @@
+$blueColor: #2196f3;
+
+.tickets {
+  margin: 0 auto;
+  &__btn {
+    width: 500px;
+    height: 50px;
+    background-color: $blueColor;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+  &__spin {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 420px) {
+}

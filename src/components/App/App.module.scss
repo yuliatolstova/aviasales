@@ -1,0 +1,54 @@
+$textColor: #4a4a4a;
+$blueColor: #2196f3;
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #000000;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  color: $textColor;
+  background: #f3f7fa;
+}
+
+.wrapper {
+  display: flex;
+  max-width: 778px;
+  min-height: 100vh;
+  margin: 0 auto;
+  position: relative;
+  flex-direction: row;
+  padding: 0 103px;
+  &__tickets {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: auto;
+    padding: 0 20px;
+  }
+  &__alert {
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+  }
+  &__alert_none {
+    display: none;
+  }
+}
+
+.logo {
+  margin: 50px auto;
+  width: 60px;
+  height: 60px;
+  background: url('./logo.svg') 50% 50%/ 60px 60px no-repeat;
+}
+
+@media (max-width: 922px) {
+  .wrapper {
+    flex-direction: column;
+    padding: 0 50px;
+  }
+}
