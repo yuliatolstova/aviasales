@@ -1,5 +1,5 @@
 {
-  "name": "todo",
+  "name": "aviasales",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,17 +8,13 @@
     "@testing-library/user-event": "^13.5.0",
     "antd": "^5.3.1",
     "prop-types": "^15.8.1",
-    "rc-pagination": "^3.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.5",
     "react-scripts": "5.0.1",
     "redux": "^4.2.1",
     "redux-thunk": "^2.4.2",
-    "sass": "^1.60.0",
-    "sass-loader": "^13.2.2",
-    "scss": "^0.2.4",
-    "web-vitals": "^2.1.4"
+    "scss": "^0.2.4"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": "npx eslint",
@@ -64,7 +60,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "husky": "^8.0.3",
+    "husky": "^8.0.0",
     "lint-staged": "^13.1.2",
     "prettier": "^2.8.4"
   },
