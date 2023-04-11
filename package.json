@@ -18,7 +18,7 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": "npm run lint:fix",
-    "*.{js,jsx,ts,tsx,html,css,scss}": "npm run format"
+    "*.{js,jsx,ts,tsx,html,css,scss}": "npm run prettier"
   },
   "scripts": {
     "start": "react-scripts start",
