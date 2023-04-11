@@ -13,9 +13,7 @@ export default function TicketsList() {
   const checkAll = useSelector((state) => state.checkAll)
   const sortedButton = useSelector((state) => state.sortedButton)
   const loaded = useSelector((state) => state.loaded)
-
   const [visibleTickets, setVisibleTickets] = useState(5)
-
   const filterTickets = (ticketsList) => {
     let filteredTickets
     if (checkAll) {
