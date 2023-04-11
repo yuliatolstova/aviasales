@@ -14,7 +14,6 @@ export default function App() {
   const dispatch = useDispatch()
   const checkedList = useSelector((state) => state.checkedList)
   const checkAll = useSelector((state) => state.checkAll)
-
   useEffect(() => {
     dispatch(getSearchId())
   }, [])
