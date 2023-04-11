@@ -10,7 +10,6 @@ export const getSearchId = () => {
       .catch((err) => err)
   }
 }
-
 export const getTicketsList = (searchId) => {
   return function (dispatch) {
     fetch(`https://aviasales-test-api.kata.academy/tickets?searchId=${searchId}`)
